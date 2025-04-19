@@ -27,6 +27,6 @@ jobs:
         with:
           skip_existing: true
         env:
-          CR_GIT_REPO: charts
+          CR_GIT_REPO: mammdoo/charts
           CR_PAGES_BRANCH: main
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
